@@ -168,9 +168,8 @@ The inclusion of models across all three categories highlights the **rapid metho
 
 This comprehensive selection provides insights into how methodological advances have translated to improved prediction accuracy across different RNA structural contexts.
 
-### 4.4 Implementation and Usage
+### 4.4 Model Availability
 
-#### **Model Availability**
 | Model | License | Source Code | Web Server |
 |-------|---------|-------------|------------|
 | SimRNA | Free for academic | GitHub | Available |
@@ -186,21 +185,67 @@ This comprehensive selection provides insights into how methodological advances 
 | DeepFoldRNA | MIT License | GitHub | Available |
 | AlphaFold3 | Commercial/Academic | Limited access | Limited |
 
-#### **Running Models in This Benchmark**
-See `/scripts/02_run_predictors.sh` for example wrappers and execution scripts. Each model requires specific dependencies and parameter settings, which we have standardized across all evaluations.
 
-### 4.5 Methodological Coverage
-
-Together, these 14 models represent:
-- **Full methodological spectrum** from early knowledge-based frameworks to next-generation neural architectures
-- **Diverse algorithmic approaches** including Monte Carlo sampling, fragment assembly, template modeling, and end-to-end deep learning
-- **Varying data requirements** from ab initio (no homologs needed) to methods requiring multiple sequence alignments
-- **Different computational demands** ranging from minutes to days per prediction
-
-This comprehensive selection enables systematic analysis of how methodological choices affect prediction performance across different RNA types and evaluation scenarios.
-
-
+---
 ## 5. Metrics
+
+## 5. Evaluation Metrics
+
+### 5.1 Overview of Evaluation Framework
+
+We employed **21 complementary metrics** spanning four major methodological categories to provide a comprehensive assessment of RNA tertiary structure predictions. This multi-faceted approach enables detailed analysis of different aspects of structural accuracy, from atomic-level geometry to topological correctness and physico-chemical plausibility.
+
+| Category | Metrics Included | Evaluation Focus | Key Characteristics |
+|----------|-----------------|------------------|---------------------|
+| **Geometry-Based** | RMSD, TM-score, lDDT, GDT-TS, Clash score, BARBABA-eSCORE | Atomic coordinate similarity | Quantify global and local structural deviations |
+| **Topology-Based** | INF, Base-pair F1 score, Precision, Recall | Base-pairing pattern correctness | Assess secondary structure and contact map accuracy |
+| **Energy-Based** | RASP, cgRNASP, 3dRNAscore, RNA-BRIQ, DFIRE | Structural plausibility and stability | Statistical/knowledge-based potentials from experimental structures |
+| **Deep Learning-Based** | ARES, RNAalign, RNARank, RNA3DCNN, TB-MQC, PAMNet | Neural network discrimination | Learned representations for native vs. decoy classification |
+
+### 5.2 Metric Categories in Detail
+
+#### **5.2.1 Geometry-Based Metrics**
+*Quantifying atomic-level structural similarity*
+
+- **RMSD (Root Mean Square Deviation)** – Standard measure of global atomic coordinate deviation
+- **TM-score** – Length-normalized similarity score, more sensitive to global fold than RMSD
+- **lDDT (local Distance Difference Test)** – Local superposition-free assessment of distance differences
+- **GDT-TS (Global Distance Test - Total Score)** – Percentage of residues within distance cutoffs
+- **Clash score** – Counts of steric clashes, evaluates structural plausibility
+- **BARBABA-eSCORE** – Ensemble-based scoring for RNA structure quality
+
+**Application**: Essential for assessing how closely predicted structures match experimental references at atomic resolution.
+
+#### **5.2.2 Topology-Based Metrics**
+*Evaluating base-pairing and contact map accuracy*
+
+- **INF (Interaction Network Fidelity)** – Measures correctness of predicted base-pair interactions
+- **Base-pair F1 score** – Harmonic mean of precision and recall for base-pair prediction
+- **Base-pair Precision** – Proportion of predicted base-pairs that are correct
+- **Base-pair Recall** – Proportion of true base-pairs that are recovered
+
+**Application**: Critical for assessing whether the fundamental RNA secondary structure topology is correctly predicted, independent of precise atomic coordinates.
+
+#### **5.2.3 Energy-Based Metrics**
+*Assessing structural plausibility through statistical potentials*
+
+- **RASP (RNA Assessment of Structures Package)** – Knowledge-based potential for RNA structures
+- **cgRNASP** – Coarse-grained statistical potential for RNA
+- **3dRNAscore** – Scoring function specifically optimized for RNA tertiary structures
+- **RNA-BRIQ** – Bayesian model for RNA structure quality assessment
+- **DFIRE (Distance-scaled Finite Ideal-gas Reference)** – Reference state-based statistical potential
+
+**Application**: Provide "inverse folding" scores indicating whether a structure resembles experimentally determined RNAs, useful for reference-free evaluation (Dataset3).
+
+#### **5.2.4 Deep Learning-Based Metrics**
+*Neural network approaches for structure discrimination*
+
+- **ARES** – Atomic Rotationally Equivariant Scorer for RNA structures
+- **RNAalign** – Deep learning model for RNA structure alignment and scoring
+- **RNArank** – Neural network ranking of RNA structural models
+- **RNA3DCNN** – 3D convolutional neural network for RNA structure assessment
+- **TB-MQC** – Template-based model quality assessment
+- **PAMNet** – Point Attention Network for RNA structure evaluation
 
 
 
