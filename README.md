@@ -73,6 +73,9 @@ A suggested structure (adjust to match your repo):
 │   └── renv/ or requirements_R.txt  # R package environment (optional)
 └── README.md
 
+```
+
+---
 ## 3. Data
 
 3.1 Datasets
