@@ -113,15 +113,92 @@ We constructed **three curated RNA structure datasets** with distinct design pri
 - **Unique feature**: No experimentally determined 3D structures exist for any RNA in this dataset
 - **Purpose**: Evaluation of prediction methods and scoring functions in purely ab initio contexts
 
-### 3.3 Dataset Statistics
 
-```python
-# Summary statistics (illustrative)
-Dataset1: 17 RNAs, mean length = 85.2 nt, resolution = 1.55-3.04 Å
-Dataset2: 16 RNAs, mean length = 142.7 nt, resolution = 2.4-8.57 Å  
-Dataset3: 17 RNAs, selected from transcriptomic data, no reference structures
-
+---
 ## 4. Models
+
+### 4.1 Overview of Evaluated Methods
+
+We benchmarked **14 representative RNA tertiary structure prediction models** spanning three major methodological categories, covering the full evolution of RNA structure prediction from classical approaches to state-of-the-art deep learning frameworks:
+
+| Category | Models Included | Core Methodology | Key Features |
+|----------|-----------------|------------------|--------------|
+| **Statistical Potential & Ab Initio** | SimRNA, 3dRNA v2.0, FARFAR2, VFold | Coarse-grained sampling, fragment assembly, statistical potentials | Physics-inspired, template-free conformational exploration |
+| **Template/Fragment-Driven** | RNAComposer, RNAJP, trRosettaRNA | Structural database integration, MSA coevolution, fragment libraries | Knowledge-guided construction using evolutionary signals |
+| **Deep Learning-Based** | DRfold, RhoFold, RoseTTAFold2NA, DeepFoldRNA, AlphaFold3 | RNA transformers, cross-modal architectures, EvoFormer modules | Neural network prediction of complex long-range interactions |
+
+### 4.2 Model Categories in Detail
+
+#### **4.2.1 Statistical Potential & Ab Initio Methods**
+*Classical approaches relying on physical principles and conformational sampling*
+
+- **SimRNA** – Coarse-grained Monte Carlo sampling with statistical potential
+- **3dRNA v2.0** – Fragment assembly with knowledge-based scoring function  
+- **FARFAR2** – Fragment assembly of RNA with Rosetta energy function
+- **VFold** – V-fold model for RNA 3D structure prediction
+
+**Characteristics**: Template-free, explore RNA folding landscapes through conformational sampling, suitable for novel folds without homologs.
+
+#### **4.2.2 Template & Fragment-Driven Methods**
+*Knowledge-based approaches leveraging existing structural information*
+
+- **RNAComposer** – Template-based modeling using RNA FRABASE database
+- **RNAJP** – Junction-based modeling with fragment libraries
+- **trRosettaRNA** – Deep learning-predicted distance/orientation restraints + fragment assembly
+
+**Characteristics**: Integrate structural databases, multiple sequence alignment (MSA) derived coevolution signals, or fragment libraries to guide model construction.
+
+#### **4.2.3 Deep Learning-Based Methods**  
+*Next-generation neural architectures for RNA structure prediction*
+
+- **DRfold** – End-to-end deep learning with hybrid energy network
+- **RhoFold** – RNA transformer architecture with geometric constraints
+- **RoseTTAFold2NA** – Three-track neural network for nucleic acids
+- **DeepFoldRNA** – Deep learning framework for RNA 3D structure
+- **AlphaFold3** – Generalized architecture for biomolecular structures (including RNA)
+
+**Characteristics**: Leverage RNA transformers, cross-modal architectures, EvoFormer-style modules, or hybrid energy networks to capture complex long-range interactions and enhance folding accuracy.
+
+### 4.3 Model Timeline and Evolution
+
+The inclusion of models across all three categories highlights the **rapid methodological evolution** in RNA tertiary structure prediction:
+- **Early era**: Physics-based and statistical potential methods (pre-2015)
+- **Intermediate era**: Template/fragment approaches with evolutionary constraints (~2015-2020)
+- **Modern era**: Deep learning revolution with end-to-end neural networks (2020-present)
+
+This comprehensive selection provides insights into how methodological advances have translated to improved prediction accuracy across different RNA structural contexts.
+
+### 4.4 Implementation and Usage
+
+#### **Model Availability**
+| Model | License | Source Code | Web Server |
+|-------|---------|-------------|------------|
+| SimRNA | Free for academic | GitHub | Available |
+| 3dRNA v2.0 | Free for academic | GitHub | Available |
+| FARFAR2 | Rosetta License | GitHub | Available |
+| VFold | Free for academic | GitHub | Available |
+| RNAComposer | Free | Web server only | Available |
+| RNAJP | Free for academic | GitHub | Available |
+| trRosettaRNA | MIT License | GitHub | Available |
+| DRfold | Free for academic | GitHub | Available |
+| RhoFold | Apache 2.0 | GitHub | Available |
+| RoseTTAFold2NA | MIT License | GitHub | Available |
+| DeepFoldRNA | MIT License | GitHub | Available |
+| AlphaFold3 | Commercial/Academic | Limited access | Limited |
+
+#### **Running Models in This Benchmark**
+See `/scripts/02_run_predictors.sh` for example wrappers and execution scripts. Each model requires specific dependencies and parameter settings, which we have standardized across all evaluations.
+
+### 4.5 Methodological Coverage
+
+Together, these 14 models represent:
+- **Full methodological spectrum** from early knowledge-based frameworks to next-generation neural architectures
+- **Diverse algorithmic approaches** including Monte Carlo sampling, fragment assembly, template modeling, and end-to-end deep learning
+- **Varying data requirements** from ab initio (no homologs needed) to methods requiring multiple sequence alignments
+- **Different computational demands** ranging from minutes to days per prediction
+
+This comprehensive selection enables systematic analysis of how methodological choices affect prediction performance across different RNA types and evaluation scenarios.
+
 
 ## 5. Metrics
 
