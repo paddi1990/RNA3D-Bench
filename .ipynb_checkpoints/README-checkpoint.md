@@ -78,10 +78,48 @@ A suggested structure (adjust to match your repo):
 ---
 ## 3. Data
 
-3.1 Datasets
-dataset1
-dataset2
-dataset3
+### 3.1 Datasets Overview
+
+We constructed **three curated RNA structure datasets** with distinct design principles to provide comprehensive and unbiased evaluation:
+
+| Dataset | Design Purpose | Size | Length Range | Source | Key Features |
+|---------|----------------|------|--------------|--------|--------------|
+| **Dataset1** | Standard benchmark for well-folded RNAs | 17 RNAs | 37-134 nt | CASP16 & RNA-Puzzles | High-resolution (1.55-3.04 Å) canonical structures |
+| **Dataset2** | Temporal hold-out test for generalization | 16 RNAs | 17-277 nt | Post-publication structures | Strictly post-dates model publication dates |
+| **Dataset3** | Reference-free ab initio evaluation | 17 RNAs | - | Human/mouse transcriptome | No experimental 3D structures available |
+
+### 3.2 Dataset Details
+
+#### **Dataset1: High-Resolution Canonical RNAs**
+- **Source**: CASP16 competition and RNA-Puzzles initiative
+- **Selection criteria**: 
+  - Experimentally resolved, well-folded RNAs
+  - High-quality reference structures (1.55-3.04 Å resolution)
+  - Diverse structural classes including viral elements, ribozymes, and tRNAs
+- **Purpose**: Standard benchmark representing the "gold standard" in RNA structural biology
+
+#### **Dataset2: Temporal Hold-Out RNAs**
+- **Construction principle**: All structures were released **strictly after** the publication date of each corresponding prediction model
+- **Data leakage prevention**: Ensures models cannot have been trained on these structures
+- **Structural diversity**: Includes RNAs with varying resolution (2.4-8.57 Å) and complexity
+- **Purpose**: Unbiased test of model generalization capability to novel RNA folds
+
+#### **Dataset3: Reference-Free Ab Initio RNAs**
+- **Source**: Human and mouse transcriptomes
+- **Selection methodology**: Multi-criteria filtering to enrich for stable tertiary folds:
+  1. **icSHAPE reactivity profiles** – identifies structured regions
+  2. **ENTRNA foldability scores** – predicts RNA foldability
+  3. **RNAfold energy predictions** – estimates thermodynamic stability
+- **Unique feature**: No experimentally determined 3D structures exist for any RNA in this dataset
+- **Purpose**: Evaluation of prediction methods and scoring functions in purely ab initio contexts
+
+### 3.3 Dataset Statistics
+
+```python
+# Summary statistics (illustrative)
+Dataset1: 17 RNAs, mean length = 85.2 nt, resolution = 1.55-3.04 Å
+Dataset2: 16 RNAs, mean length = 142.7 nt, resolution = 2.4-8.57 Å  
+Dataset3: 17 RNAs, selected from transcriptomic data, no reference structures
 
 ## 4. Models
 
