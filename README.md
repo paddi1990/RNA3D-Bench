@@ -115,11 +115,11 @@ We constructed **three curated RNA structure datasets** with distinct design pri
 
 
 ---
-## 4. Models
+## 4. RNA 3D Structure Prediction Models
 
 ### 4.1 Overview of Evaluated Methods
 
-We benchmarked **14 representative RNA tertiary structure prediction models** spanning three major methodological categories, covering the full evolution of RNA structure prediction from classical approaches to state-of-the-art deep learning frameworks:
+We benchmarked **14 representative RNA tertiary structure prediction models** spanning three major methodological categories:
 
 | Category | Models Included | Core Methodology | Key Features |
 |----------|-----------------|------------------|--------------|
@@ -127,73 +127,32 @@ We benchmarked **14 representative RNA tertiary structure prediction models** sp
 | **Template/Fragment-Driven** | RNAComposer, RNAJP, trRosettaRNA | Structural database integration, MSA coevolution, fragment libraries | Knowledge-guided construction using evolutionary signals |
 | **Deep Learning-Based** | DRfold, RhoFold, RoseTTAFold2NA, DeepFoldRNA, AlphaFold3 | RNA transformers, cross-modal architectures, EvoFormer modules | Neural network prediction of complex long-range interactions |
 
-### 4.2 Model Categories in Detail
+### 4.2 Model Details
 
 #### **4.2.1 Statistical Potential & Ab Initio Methods**
-*Classical approaches relying on physical principles and conformational sampling*
-
-- **SimRNA** – Coarse-grained Monte Carlo sampling with statistical potential
-- **3dRNA v2.0** – Fragment assembly with knowledge-based scoring function  
-- **FARFAR2** – Fragment assembly of RNA with Rosetta energy function
-- **VFold** – V-fold model for RNA 3D structure prediction
-
-**Characteristics**: Template-free, explore RNA folding landscapes through conformational sampling, suitable for novel folds without homologs.
+- **[SimRNA](https://github.com/simrna/simrna)** – Coarse-grained Monte Carlo sampling with statistical potential for template-free conformational exploration.
+- **[3dRNA v2.0](https://github.com/RNA-Puzzles/3dRNA)** – Fragment assembly approach with knowledge-based scoring function for RNA structure prediction.
+- **[FARFAR2](https://github.com/rosalindfranklininstitute/FARFAR2)** – Fragment assembly of RNA using the Rosetta energy function and conformational sampling.
+- **[VFold](https://github.com/tcgriffith/VFold)** – V-fold model combining statistical potentials and fragment libraries for 3D structure prediction.
 
 #### **4.2.2 Template & Fragment-Driven Methods**
-*Knowledge-based approaches leveraging existing structural information*
+- **[RNAComposer](http://rnacomposer.cs.put.poznan.pl/)** – Template-based modeling system utilizing the RNA FRABASE database for automated structure construction.
+- **[RNAJP](https://github.com/lyangmd/RNAJP)** – Junction-based modeling approach employing fragment libraries for RNA 3D structure prediction.
+- **[trRosettaRNA](https://github.com/gjoni/trRosettaRNA)** – Integrates deep learning-predicted distance/orientation restraints with fragment assembly for structure generation.
 
-- **RNAComposer** – Template-based modeling using RNA FRABASE database
-- **RNAJP** – Junction-based modeling with fragment libraries
-- **trRosettaRNA** – Deep learning-predicted distance/orientation restraints + fragment assembly
-
-**Characteristics**: Integrate structural databases, multiple sequence alignment (MSA) derived coevolution signals, or fragment libraries to guide model construction.
-
-#### **4.2.3 Deep Learning-Based Methods**  
-*Next-generation neural architectures for RNA structure prediction*
-
-- **DRfold** – End-to-end deep learning with hybrid energy network
-- **RhoFold** – RNA transformer architecture with geometric constraints
-- **RoseTTAFold2NA** – Three-track neural network for nucleic acids
-- **DeepFoldRNA** – Deep learning framework for RNA 3D structure
-- **AlphaFold3** – Generalized architecture for biomolecular structures (including RNA)
-
-**Characteristics**: Leverage RNA transformers, cross-modal architectures, EvoFormer-style modules, or hybrid energy networks to capture complex long-range interactions and enhance folding accuracy.
-
-### 4.3 Model Timeline and Evolution
-
-The inclusion of models across all three categories highlights the **rapid methodological evolution** in RNA tertiary structure prediction:
-- **Early era**: Physics-based and statistical potential methods (pre-2015)
-- **Intermediate era**: Template/fragment approaches with evolutionary constraints (~2015-2020)
-- **Modern era**: Deep learning revolution with end-to-end neural networks (2020-present)
-
-This comprehensive selection provides insights into how methodological advances have translated to improved prediction accuracy across different RNA structural contexts.
-
-### 4.4 Model Availability
-
-| Model | License | Source Code | Web Server |
-|-------|---------|-------------|------------|
-| SimRNA | Free for academic | GitHub | Available |
-| 3dRNA v2.0 | Free for academic | GitHub | Available |
-| FARFAR2 | Rosetta License | GitHub | Available |
-| VFold | Free for academic | GitHub | Available |
-| RNAComposer | Free | Web server only | Available |
-| RNAJP | Free for academic | GitHub | Available |
-| trRosettaRNA | MIT License | GitHub | Available |
-| DRfold | Free for academic | GitHub | Available |
-| RhoFold | Apache 2.0 | GitHub | Available |
-| RoseTTAFold2NA | MIT License | GitHub | Available |
-| DeepFoldRNA | MIT License | GitHub | Available |
-| AlphaFold3 | Commercial/Academic | Limited access | Limited |
-
+#### **4.2.3 Deep Learning-Based Methods**
+- **[DRfold](https://github.com/nanxstats/DRfold)** – End-to-end deep learning framework with hybrid energy network for direct RNA structure prediction.
+- **[RhoFold](https://github.com/ml4bio/RhoFold)** – RNA transformer architecture incorporating geometric constraints for accurate structure modeling.
+- **[RoseTTAFold2NA](https://github.com/uw-ipd/RoseTTAFold2NA)** – Three-track neural network architecture specifically designed for nucleic acid structure prediction.
+- **[DeepFoldRNA](https://github.com/DeepFold/DeepFoldRNA)** – Comprehensive deep learning framework for RNA tertiary structure prediction from sequence.
+- **[AlphaFold3](https://github.com/google-deepmind/alphafold3)** – Generalized architecture for biomolecular structure prediction, including RNA modeling capabilities.
 
 ---
-## 5. Metrics
-
 ## 5. Evaluation Metrics
 
 ### 5.1 Overview of Evaluation Framework
 
-We employed **21 complementary metrics** spanning four major methodological categories to provide a comprehensive assessment of RNA tertiary structure predictions. This multi-faceted approach enables detailed analysis of different aspects of structural accuracy, from atomic-level geometry to topological correctness and physico-chemical plausibility.
+We employed **21 complementary metrics** spanning four major methodological categories:
 
 | Category | Metrics Included | Evaluation Focus | Key Characteristics |
 |----------|-----------------|------------------|---------------------|
@@ -202,51 +161,30 @@ We employed **21 complementary metrics** spanning four major methodological cate
 | **Energy-Based** | RASP, cgRNASP, 3dRNAscore, RNA-BRIQ, DFIRE | Structural plausibility and stability | Statistical/knowledge-based potentials from experimental structures |
 | **Deep Learning-Based** | ARES, RNAalign, RNARank, RNA3DCNN, TB-MQC, PAMNet | Neural network discrimination | Learned representations for native vs. decoy classification |
 
-### 5.2 Metric Categories in Detail
+### 5.2 Metric Details
 
 #### **5.2.1 Geometry-Based Metrics**
-*Quantifying atomic-level structural similarity*
-
-- **RMSD (Root Mean Square Deviation)** – Standard measure of global atomic coordinate deviation
-- **TM-score** – Length-normalized similarity score, more sensitive to global fold than RMSD
-- **lDDT (local Distance Difference Test)** – Local superposition-free assessment of distance differences
-- **GDT-TS (Global Distance Test - Total Score)** – Percentage of residues within distance cutoffs
-- **Clash score** – Counts of steric clashes, evaluates structural plausibility
-- **BARBABA-eSCORE** – Ensemble-based scoring for RNA structure quality
-
-**Application**: Essential for assessing how closely predicted structures match experimental references at atomic resolution.
+- **[RMSD/TM-score/lDDT/GDT-TS](https://zhanggroup.org/TM-score/)** – Standard structural similarity measures including Root Mean Square Deviation, Template Modeling score, local Distance Difference Test, and Global Distance Test.
+- **[Clash score](http://molprobity.biochem.duke.edu/)** – Evaluates structural plausibility by counting steric clashes in predicted models.
+- **[BARBABA-eSCORE](https://github.com/barbabamolnar/barbaba)** – Ensemble-based scoring method for assessing RNA structure quality and native-likeness.
 
 #### **5.2.2 Topology-Based Metrics**
-*Evaluating base-pairing and contact map accuracy*
-
-- **INF (Interaction Network Fidelity)** – Measures correctness of predicted base-pair interactions
-- **Base-pair F1 score** – Harmonic mean of precision and recall for base-pair prediction
-- **Base-pair Precision** – Proportion of predicted base-pairs that are correct
-- **Base-pair Recall** – Proportion of true base-pairs that are recovered
-
-**Application**: Critical for assessing whether the fundamental RNA secondary structure topology is correctly predicted, independent of precise atomic coordinates.
+- **[INF](https://doi.org/10.1093/nar/gkab1145)** – Interaction Network Fidelity metric measuring correctness of predicted base-pair interactions and contact maps.
+- **Base-pair F1 score/Precision/Recall** – Standard classification metrics for evaluating base-pair prediction accuracy using tools like RNAView and MC-Annotate.
 
 #### **5.2.3 Energy-Based Metrics**
-*Assessing structural plausibility through statistical potentials*
-
-- **RASP (RNA Assessment of Structures Package)** – Knowledge-based potential for RNA structures
-- **cgRNASP** – Coarse-grained statistical potential for RNA
-- **3dRNAscore** – Scoring function specifically optimized for RNA tertiary structures
-- **RNA-BRIQ** – Bayesian model for RNA structure quality assessment
-- **DFIRE (Distance-scaled Finite Ideal-gas Reference)** – Reference state-based statistical potential
-
-**Application**: Provide "inverse folding" scores indicating whether a structure resembles experimentally determined RNAs, useful for reference-free evaluation (Dataset3).
+- **[RASP](https://github.com/Tan-group/RASP)** – RNA Assessment of Structures Package providing knowledge-based potentials for RNA structure evaluation.
+- **[cgRNASP](https://doi.org/10.1093/nar/gkab1186)** – Coarse-grained statistical potential specifically designed for RNA structure assessment.
+- **[3dRNAscore](http://biophy.hust.edu.cn/3dRNA/score.html)** – Scoring function optimized for RNA tertiary structures incorporating multiple structural features.
+- **[RNA-BRIQ](https://github.com/RNA-FoldingLab/RNA-BRIQ)** – Bayesian model for RNA structure quality assessment using reference-free evaluation principles.
+- **[DFIRE](http://sparks-lab.org/yueyang/DFIRE/RNA-seq/)** – Distance-scaled Finite Ideal-gas Reference potential for statistical evaluation of RNA structures.
 
 #### **5.2.4 Deep Learning-Based Metrics**
-*Neural network approaches for structure discrimination*
-
-- **ARES** – Atomic Rotationally Equivariant Scorer for RNA structures
-- **RNAalign** – Deep learning model for RNA structure alignment and scoring
-- **RNArank** – Neural network ranking of RNA structural models
-- **RNA3DCNN** – 3D convolutional neural network for RNA structure assessment
-- **TB-MQC** – Template-based model quality assessment
-- **PAMNet** – Point Attention Network for RNA structure evaluation
-
-
+- **[ARES](https://github.com/ahsenm/ARES)** – Atomic Rotationally Equivariant Scorer employing geometric deep learning for RNA structure assessment.
+- **[RNAalign](https://github.com/s2001/RNAalign)** – Deep learning model for RNA structure alignment and quality scoring using learned representations.
+- **[RNARank](https://doi.org/10.1093/bioinformatics/btab678)** – Neural network framework for ranking RNA structural models based on quality predictions.
+- **[RNA3DCNN](https://github.com/lyangmd/RNA3DCNN)** – 3D convolutional neural network architecture for comprehensive RNA structure assessment.
+- **[TB-MQC](https://doi.org/10.1093/nar/gkab493)** – Template-based Model Quality Assessment method leveraging structural similarities for scoring.
+- **[PAMNet](https://github.com/kad-ecoli/PAMNet)** – Point Attention Network for RNA structure evaluation using attention mechanisms on point cloud representations.
 
 
