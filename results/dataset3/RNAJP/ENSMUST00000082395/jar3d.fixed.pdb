@@ -1,0 +1,693 @@
+REMARK   1 CREATED WITH OPENMM 8.1.2, 2025-09-24
+HETATM    1  BBP CGA A   1      36.946  18.705  -5.244  1.00  0.00           P  
+HETATM    2  BBC CGA A   1      38.081  15.826  -7.353  1.00  0.00           C  
+HETATM    3 AN9  CGA A   1      39.932  14.420  -4.838  1.00  0.00          Au  
+HETATM    4 AC2  CGA A   1      41.566  11.643  -3.459  1.00  0.00          Au  
+HETATM    5 AC6  CGA A   1      41.087  13.290  -1.752  1.00  0.00          Au  
+HETATM    6  BBP CGG A   2      34.874  13.953  -6.443  1.00  0.00           P  
+HETATM    7  BBC CGG A   2      36.081  10.350  -6.615  1.00  0.00           C  
+HETATM    8 GN9  CGG A   2      37.680  10.554  -3.623  1.00  0.00          Cu  
+HETATM    9 GC2  CGG A   2      39.237   8.933  -0.938  1.00  0.00          Cu  
+HETATM   10 GC6  CGG A   2      38.612  11.184  -0.325  1.00  0.00          Cu  
+HETATM   11  BBP CGU A   3      32.800   9.105  -5.103  1.00  0.00           P  
+HETATM   12  BBC CGU A   3      34.026   5.941  -3.350  1.00  0.00           C  
+HETATM   13 UN1  CGU A   3      35.387   7.692  -0.771  1.00  0.00          Fe  
+HETATM   14 UC2  CGU A   3      35.909   7.812   0.519  1.00  0.00          Fe  
+HETATM   15 UC4  CGU A   3      35.456  10.203   0.413  1.00  0.00          Fe  
+HETATM   16  BBP CGA A   4      30.621   5.530  -1.660  1.00  0.00           P  
+HETATM   17  BBC CGA A   4      31.719   3.682   1.531  1.00  0.00           C  
+HETATM   18 AN9  CGA A   4      32.896   6.506   2.955  1.00  0.00          Au  
+HETATM   19 AC2  CGA A   4      33.974   8.379   5.758  1.00  0.00          Au  
+HETATM   20 AC6  CGA A   4      33.433   9.863   3.995  1.00  0.00          Au  
+HETATM   21  BBP CGA A   5      28.375   3.845   3.722  1.00  0.00           P  
+HETATM   22  BBC CGA A   5      29.505   4.296   7.192  1.00  0.00           C  
+HETATM   23 AN9  CGA A   5      30.261   7.285   7.048  1.00  0.00          Au  
+HETATM   24 AC2  CGA A   5      30.929  10.331   8.015  1.00  0.00          Au  
+HETATM   25 AC6  CGA A   5      30.280  10.448   5.669  1.00  0.00          Au  
+HETATM   26  BBP CGG A   6      25.806   4.928   8.440  1.00  0.00           P  
+HETATM   27  BBC CGG A   6      26.325   7.189  11.467  1.00  0.00           C  
+HETATM   28 GN9  CGG A   6      27.133   9.853   9.499  1.00  0.00          Cu  
+HETATM   29 GC2  CGG A   6      27.699  13.319   9.301  1.00  0.00          Cu  
+HETATM   30 GC6  CGG A   6      27.268  12.373   7.087  1.00  0.00          Cu  
+HETATM   31  BBP CGG A   7      22.696   8.075  11.699  1.00  0.00           P  
+HETATM   32  BBC CGG A   7      22.846  11.591  13.131  1.00  0.00           C  
+HETATM   33 GN9  CGG A   7      23.853  12.962  10.134  1.00  0.00          Cu  
+HETATM   34 GC2  CGG A   7      24.294  15.805   8.170  1.00  0.00          Cu  
+HETATM   35 GC6  CGG A   7      24.200  13.870   6.745  1.00  0.00          Cu  
+HETATM   36  BBP CGU A   8      19.230  12.713  12.416  1.00  0.00           P  
+HETATM   37  BBC CGU A   8      18.813  16.126  13.450  1.00  0.00           C  
+HETATM   38 UN1  CGU A   8      19.877  16.975  10.168  1.00  0.00          Fe  
+HETATM   39 UC2  CGU A   8      19.847  18.129   8.930  1.00  0.00          Fe  
+HETATM   40 UC4  CGU A   8      20.709  16.351   7.678  1.00  0.00          Fe  
+HETATM   41  BBP CGC A   9      15.184  15.755  12.100  1.00  0.00           P  
+HETATM   42  BBC CGC A   9      14.313  18.885  10.472  1.00  0.00           C  
+HETATM   43 CN1  CGC A   9      16.253  18.130   7.570  1.00  0.00          Ag  
+HETATM   44 CC2  CGC A   9      16.500  18.477   6.292  1.00  0.00          Ag  
+HETATM   45 CC4  CGC A   9      17.604  16.363   5.859  1.00  0.00          Ag  
+HETATM   46  BBP CGA A  10      11.493  17.723   8.835  1.00  0.00           P  
+HETATM   47  BBC CGA A  10      11.472  18.255   5.097  1.00  0.00           C  
+HETATM   48 AN9  CGA A  10      13.836  15.890   4.446  1.00  0.00          Au  
+HETATM   49 AC2  CGA A  10      15.429  13.710   2.208  1.00  0.00          Au  
+HETATM   50 AC6  CGA A  10      15.705  12.910   4.457  1.00  0.00          Au  
+HETATM   51  BBP CGG A  11       8.515  16.056   4.554  1.00  0.00           P  
+HETATM   52  BBC CGG A  11       9.209  14.772   1.068  1.00  0.00           C  
+HETATM   53 GN9  CGG A  11      11.512  12.525   2.199  1.00  0.00          Cu  
+HETATM   54 GC2  CGG A  11      13.504   9.774   1.455  1.00  0.00          Cu  
+HETATM   55 GC6  CGG A  11      13.427  10.136   3.816  1.00  0.00          Cu  
+HETATM   56  BBP CGC A  12       7.539  11.526  -0.451  1.00  0.00           P  
+HETATM   57  BBC CGC A  12       7.942   9.839  -4.033  1.00  0.00           C  
+HETATM   58 CN1  CGC A  12      10.975   8.162  -4.538  1.00  0.00          Ag  
+HETATM   59 CC2  CGC A  12      11.029   6.772  -4.686  1.00  0.00          Ag  
+HETATM   60 CC4  CGC A  12      12.976   6.594  -3.589  1.00  0.00          Ag  
+HETATM   61  BBP CGU A  13       4.770   7.896  -3.361  1.00  0.00           P  
+HETATM   62  BBC CGU A  13       2.576   7.539  -6.479  1.00  0.00           C  
+HETATM   63 UN1  CGU A  13       4.361   5.711  -8.982  1.00  0.00          Fe  
+HETATM   64 UC2  CGU A  13       5.130   5.058  -8.194  1.00  0.00          Fe  
+HETATM   65 UC4  CGU A  13       6.133   3.921 -10.234  1.00  0.00          Fe  
+HETATM   66  BBP CGA A  14      -0.113   5.586  -4.909  1.00  0.00           P  
+HETATM   67  BBC CGA A  14      -0.757   8.448  -2.521  1.00  0.00           C  
+HETATM   68 AN9  CGA A  14      -2.030  11.309  -2.906  1.00  0.00          Au  
+HETATM   69 AC2  CGA A  14      -2.855  12.648   0.202  1.00  0.00          Au  
+HETATM   70 AC6  CGA A  14      -1.906  14.496  -1.247  1.00  0.00          Au  
+HETATM   71  BBP CGA A  15       0.825   8.296   0.785  1.00  0.00           P  
+HETATM   72  BBC CGA A  15      -0.361   5.180   3.120  1.00  0.00           C  
+HETATM   73 AN9  CGA A  15      -2.977   7.404   3.216  1.00  0.00          Au  
+HETATM   74 AC2  CGA A  15      -4.458  10.834   4.305  1.00  0.00          Au  
+HETATM   75 AC6  CGA A  15      -3.329   9.688   5.906  1.00  0.00          Au  
+HETATM   76  BBP CGU A  16      -3.152   3.752   1.224  1.00  0.00           P  
+HETATM   77  BBC CGU A  16      -0.659   2.830  -1.465  1.00  0.00           C  
+HETATM   78 UN1  CGU A  16       1.008   0.691   0.633  1.00  0.00          Fe  
+HETATM   79 UC2  CGU A  16       1.854  -0.355   0.911  1.00  0.00          Fe  
+HETATM   80 UC4  CGU A  16       0.788  -0.655   2.998  1.00  0.00          Fe  
+HETATM   81  BBP CGU A  17      -3.122   0.251  -2.839  1.00  0.00           P  
+HETATM   82  BBC CGU A  17      -0.674  -2.248  -4.365  1.00  0.00           C  
+HETATM   83 UN1  CGU A  17       0.170  -3.538  -1.341  1.00  0.00          Fe  
+HETATM   84 UC2  CGU A  17       0.724  -4.518  -0.525  1.00  0.00          Fe  
+HETATM   85 UC4  CGU A  17      -0.579  -3.627   1.326  1.00  0.00          Fe  
+HETATM   86  BBP CGA A  18      -3.511  -4.734  -4.930  1.00  0.00           P  
+HETATM   87  BBC CGA A  18      -1.602  -8.026  -4.646  1.00  0.00           C  
+HETATM   88 AN9  CGA A  18      -1.464  -7.853  -1.254  1.00  0.00          Au  
+HETATM   89 AC2  CGA A  18      -0.913  -9.426   1.838  1.00  0.00          Au  
+HETATM   90 AC6  CGA A  18      -2.119  -7.393   2.163  1.00  0.00          Au  
+HETATM   91  BBP CGA A  19      -4.840 -10.049  -4.677  1.00  0.00           P  
+HETATM   92  BBC CGA A  19      -3.735 -13.058  -2.599  1.00  0.00           C  
+HETATM   93 AN9  CGA A  19      -3.989 -11.347   0.332  1.00  0.00          Au  
+HETATM   94 AC2  CGA A  19      -4.191 -11.322   3.838  1.00  0.00          Au  
+HETATM   95 AC6  CGA A  19      -4.957  -9.236   2.966  1.00  0.00          Au  
+HETATM   96  BBP CGG A  20      -7.296 -14.410  -2.418  1.00  0.00           P  
+HETATM   97  BBC CGG A  20      -7.144 -16.251   0.928  1.00  0.00           C  
+HETATM   98 GN9  CGG A  20      -7.354 -13.390   2.740  1.00  0.00          Cu  
+HETATM   99 GC2  CGG A  20      -7.957 -12.031   5.900  1.00  0.00          Cu  
+HETATM  100 GC6  CGG A  20      -8.143 -10.315   4.226  1.00  0.00          Cu  
+HETATM  101  BBP CGC A  21     -10.919 -16.807   0.834  1.00  0.00           P  
+HETATM  102  BBC CGC A  21     -11.642 -16.837   4.569  1.00  0.00           C  
+HETATM  103 CN1  CGC A  21     -11.411 -13.454   4.813  1.00  0.00          Ag  
+HETATM  104 CC2  CGC A  21     -11.636 -12.216   5.461  1.00  0.00          Ag  
+HETATM  105 CC4  CGC A  21     -11.321 -11.084   3.353  1.00  0.00          Ag  
+HETATM  106  BBP CGU A  22     -15.387 -16.824   3.865  1.00  0.00           P  
+HETATM  107  BBC CGU A  22     -16.627 -14.963   6.946  1.00  0.00           C  
+HETATM  108 UN1  CGU A  22     -15.654 -11.955   5.697  1.00  0.00          Fe  
+HETATM  109 UC2  CGU A  22     -15.649 -10.557   5.617  1.00  0.00          Fe  
+HETATM  110 UC4  CGU A  22     -14.742 -10.779   3.358  1.00  0.00          Fe  
+HETATM  111  BBP CGA A  23     -20.111 -14.730   5.532  1.00  0.00           P  
+HETATM  112  BBC CGA A  23     -21.408 -11.542   7.040  1.00  0.00           C  
+HETATM  113 AN9  CGA A  23     -19.554  -9.534   4.958  1.00  0.00          Au  
+HETATM  114 AC2  CGA A  23     -18.960  -6.365   3.612  1.00  0.00          Au  
+HETATM  115 AC6  CGA A  23     -17.902  -8.086   2.165  1.00  0.00          Au  
+HETATM  116  BBP CGU A  24     -25.033 -10.924   5.594  1.00  0.00           P  
+HETATM  117  BBC CGU A  24     -26.621  -7.432   5.256  1.00  0.00           C  
+HETATM  118 UN1  CGU A  24     -25.499  -7.070   2.095  1.00  0.00          Fe  
+HETATM  119 UC2  CGU A  24     -25.495  -6.501   0.832  1.00  0.00          Fe  
+HETATM  120 UC4  CGU A  24     -24.338  -8.414  -0.064  1.00  0.00          Fe  
+HETATM  121  BBP CGC A  25     -29.946  -8.983   4.228  1.00  0.00           P  
+HETATM  122  BBC CGC A  25     -31.273  -6.204   2.002  1.00  0.00           C  
+HETATM  123 CN1  CGC A  25     -29.229  -7.068  -0.555  1.00  0.00          Ag  
+HETATM  124 CC2  CGC A  25     -28.826  -7.073  -1.912  1.00  0.00          Ag  
+HETATM  125 CC4  CGC A  25     -27.515  -9.049  -1.486  1.00  0.00          Ag  
+HETATM  126  BBP CGG A  26     -34.120  -8.431   0.804  1.00  0.00           P  
+HETATM  127  BBC CGG A  26     -34.544  -7.009  -2.699  1.00  0.00           C  
+HETATM  128 GN9  CGG A  26     -31.816  -8.656  -3.868  1.00  0.00          Cu  
+HETATM  129 GC2  CGG A  26     -29.959  -9.784  -6.613  1.00  0.00          Cu  
+HETATM  130 GC6  CGG A  26     -29.300 -10.948  -4.615  1.00  0.00          Cu  
+HETATM  131  BBP CGG A  27     -36.980  -9.766  -3.696  1.00  0.00           P  
+HETATM  132  BBC CGG A  27     -36.219  -9.956  -7.432  1.00  0.00           C  
+HETATM  133 GN9  CGG A  27     -33.353 -11.707  -6.937  1.00  0.00          Cu  
+HETATM  134 GC2  CGG A  27     -30.769 -13.683  -8.227  1.00  0.00          Cu  
+HETATM  135 GC6  CGG A  27     -30.885 -13.895  -5.820  1.00  0.00          Cu  
+HETATM  136  BBP CGG A  28     -38.438 -13.019  -7.802  1.00  0.00           P  
+HETATM  137  BBC CGG A  28     -36.696 -14.799 -10.772  1.00  0.00           C  
+HETATM  138 GN9  CGG A  28     -34.197 -15.983  -8.841  1.00  0.00          Cu  
+HETATM  139 GC2  CGG A  28     -31.425 -18.080  -8.337  1.00  0.00          Cu  
+HETATM  140 GC6  CGG A  28     -32.324 -17.235  -6.177  1.00  0.00          Cu  
+HETATM  141  BBP CGC A  29     -38.767 -18.256  -9.896  1.00  0.00           P  
+HETATM  142  BBC CGC A  29     -36.526 -21.312  -9.220  1.00  0.00           C  
+HETATM  143 CN1  CGC A  29     -35.114 -20.482  -6.344  1.00  0.00          Ag  
+HETATM  144 CC2  CGC A  29     -34.305 -20.794  -5.326  1.00  0.00          Ag  
+HETATM  145 CC4  CGC A  29     -34.575 -19.045  -3.755  1.00  0.00          Ag  
+HETATM  146  BBP CGC A  30     -39.608 -22.953  -7.957  1.00  0.00           P  
+HETATM  147  BBC CGC A  30     -39.329 -24.147  -4.463  1.00  0.00           C  
+HETATM  148 CN1  CGC A  30     -38.237 -21.303  -3.085  1.00  0.00          Ag  
+HETATM  149 CC2  CGC A  30     -37.611 -20.644  -2.223  1.00  0.00          Ag  
+HETATM  150 CC4  CGC A  30     -39.062 -18.791  -2.983  1.00  0.00          Ag  
+HETATM  151  BBP CGC A  31     -42.504 -24.688  -2.235  1.00  0.00           P  
+HETATM  152  BBC CGC A  31     -43.365 -22.762   0.776  1.00  0.00           C  
+HETATM  153 CN1  CGC A  31     -41.157 -24.889   2.072  1.00  0.00          Ag  
+HETATM  154 CC2  CGC A  31     -40.242 -25.345   3.416  1.00  0.00          Ag  
+HETATM  155 CC4  CGC A  31     -39.046 -26.903   1.709  1.00  0.00          Ag  
+HETATM  156  BBP CGA A  32     -41.189 -19.619   0.195  1.00  0.00           P  
+HETATM  157  BBC CGA A  32     -39.514 -18.786   3.544  1.00  0.00           C  
+HETATM  158 AN9  CGA A  32     -37.527 -21.744   3.233  1.00  0.00          Au  
+HETATM  159 AC2  CGA A  32     -35.417 -24.526   4.443  1.00  0.00          Au  
+HETATM  160 AC6  CGA A  32     -35.735 -24.753   2.455  1.00  0.00          Au  
+HETATM  161  BBP CGU A  33     -36.942 -15.737   2.877  1.00  0.00           P  
+HETATM  162  BBC CGU A  33     -33.241 -15.273   3.781  1.00  0.00           C  
+HETATM  163 UN1  CGU A  33     -34.538 -14.292   6.791  1.00  0.00          Fe  
+HETATM  164 UC2  CGU A  33     -34.232 -14.031   7.953  1.00  0.00          Fe  
+HETATM  165 UC4  CGU A  33     -36.546 -13.098   8.047  1.00  0.00          Fe  
+HETATM  166  BBP CGA A  34     -30.279 -17.572   3.620  1.00  0.00           P  
+HETATM  167  BBC CGA A  34     -30.267 -21.206   4.711  1.00  0.00           C  
+HETATM  168 AN9  CGA A  34     -32.371 -22.403   2.312  1.00  0.00          Au  
+HETATM  169 AC2  CGA A  34     -32.227 -24.618  -0.477  1.00  0.00          Au  
+HETATM  170 AC6  CGA A  34     -33.687 -22.869  -1.065  1.00  0.00          Au  
+HETATM  171  BBP CGC A  35     -26.964 -21.088   2.716  1.00  0.00           P  
+HETATM  172  BBC CGC A  35     -27.112 -23.630   0.268  1.00  0.00           C  
+HETATM  173 CN1  CGC A  35     -29.646 -22.304  -1.534  1.00  0.00          Ag  
+HETATM  174 CC2  CGC A  35     -30.305 -22.120  -2.580  1.00  0.00          Ag  
+HETATM  175 CC4  CGC A  35     -31.281 -20.088  -1.301  1.00  0.00          Ag  
+HETATM  176  BBP CGC A  36     -24.086 -21.787  -1.521  1.00  0.00           P  
+HETATM  177  BBC CGC A  36     -24.453 -22.503  -5.315  1.00  0.00           C  
+HETATM  178 CN1  CGC A  36     -27.440 -20.822  -5.421  1.00  0.00          Ag  
+HETATM  179 CC2  CGC A  36     -28.422 -20.192  -6.113  1.00  0.00          Ag  
+HETATM  180 CC4  CGC A  36     -29.023 -18.952  -4.172  1.00  0.00          Ag  
+HETATM  181  BBP CGC A  37     -22.290 -19.521  -6.328  1.00  0.00           P  
+HETATM  182  BBC CGC A  37     -23.875 -18.734  -9.683  1.00  0.00           C  
+HETATM  183 CN1  CGC A  37     -26.555 -17.234  -8.246  1.00  0.00          Ag  
+HETATM  184 CC2  CGC A  37     -27.678 -16.393  -8.250  1.00  0.00          Ag  
+HETATM  185 CC4  CGC A  37     -27.540 -16.235  -5.848  1.00  0.00          Ag  
+HETATM  186  BBP CGC A  38     -21.895 -15.500 -10.093  1.00  0.00           P  
+HETATM  187  BBC CGC A  38     -24.376 -13.494 -12.166  1.00  0.00           C  
+HETATM  188 CN1  CGC A  38     -26.321 -12.813  -9.469  1.00  0.00          Ag  
+HETATM  189 CC2  CGC A  38     -27.312 -12.091  -8.764  1.00  0.00          Ag  
+HETATM  190 CC4  CGC A  38     -26.384 -12.906  -6.695  1.00  0.00          Ag  
+HETATM  191  BBP CGG A  39     -22.282 -10.333 -11.797  1.00  0.00           P  
+HETATM  192  BBC CGG A  39     -25.049  -7.728 -11.946  1.00  0.00           C  
+HETATM  193 GN9  CGG A  39     -25.999  -8.329  -8.747  1.00  0.00          Cu  
+HETATM  194 GC2  CGG A  39     -27.786  -7.332  -5.907  1.00  0.00          Cu  
+HETATM  195 GC6  CGG A  39     -26.143  -9.003  -5.334  1.00  0.00          Cu  
+HETATM  196  BBP CGA A  40     -22.564  -5.025 -10.991  1.00  0.00           P  
+HETATM  197  BBC CGA A  40     -24.964  -2.659  -9.221  1.00  0.00           C  
+HETATM  198 AN9  CGA A  40     -25.043  -4.566  -6.429  1.00  0.00          Au  
+HETATM  199 AC2  CGA A  40     -25.693  -4.993  -2.954  1.00  0.00          Au  
+HETATM  200 AC6  CGA A  40     -24.149  -6.696  -3.722  1.00  0.00          Au  
+HETATM  201  BBP CGA A  41     -23.376   0.248 -11.010  1.00  0.00           P  
+HETATM  202  BBC CGA A  41     -21.995  -2.317 -13.564  1.00  0.00           C  
+HETATM  203 AN9  CGA A  41     -21.631  -2.795 -16.988  1.00  0.00          Au  
+HETATM  204 AC2  CGA A  41     -22.717  -6.163 -16.479  1.00  0.00          Au  
+HETATM  205 AC6  CGA A  41     -22.587  -5.728 -18.873  1.00  0.00          Au  
+HETATM  206  BBP CGA A  42     -20.133   0.668 -14.091  1.00  0.00           P  
+HETATM  207  BBC CGA A  42     -16.888  -0.123 -15.905  1.00  0.00           C  
+HETATM  208 AN9  CGA A  42     -18.117  -0.880 -18.721  1.00  0.00          Au  
+HETATM  209 AC2  CGA A  42     -16.664  -4.035 -17.978  1.00  0.00          Au  
+HETATM  210 AC6  CGA A  42     -17.016  -3.779 -20.083  1.00  0.00          Au  
+HETATM  211  BBP CGA A  43     -14.951   2.234 -13.817  1.00  0.00           P  
+HETATM  212  BBC CGA A  43     -11.771   2.339 -11.600  1.00  0.00           C  
+HETATM  213 AN9  CGA A  43      -8.669   2.723 -13.174  1.00  0.00          Au  
+HETATM  214 AC2  CGA A  43      -5.639   3.965 -12.363  1.00  0.00          Au  
+HETATM  215 AC6  CGA A  43      -6.844   5.681 -13.557  1.00  0.00          Au  
+HETATM  216  BBP CGC A  44      -9.774   0.325  -8.916  1.00  0.00           P  
+HETATM  217  BBC CGC A  44     -10.369  -2.683 -10.931  1.00  0.00           C  
+HETATM  218 CN1  CGC A  44      -7.838  -2.372 -13.073  1.00  0.00          Ag  
+HETATM  219 CC2  CGC A  44      -7.583  -1.672 -14.138  1.00  0.00          Ag  
+HETATM  220 CC4  CGC A  44      -5.007  -1.429 -13.541  1.00  0.00          Ag  
+HETATM  221  BBP CGG A  45      -9.508  -6.044  -9.720  1.00  0.00           P  
+HETATM  222  BBC CGG A  45     -13.070  -5.690  -8.384  1.00  0.00           C  
+HETATM  223 GN9  CGG A  45     -13.567  -7.090 -11.649  1.00  0.00          Cu  
+HETATM  224 GC2  CGG A  45     -15.400  -5.043 -13.462  1.00  0.00          Cu  
+HETATM  225 GC6  CGG A  45     -14.330  -6.552 -15.227  1.00  0.00          Cu  
+HETATM  226  BBP CGU A  46     -16.263  -4.408  -6.751  1.00  0.00           P  
+HETATM  227  BBC CGU A  46     -16.898  -0.855  -5.145  1.00  0.00           C  
+HETATM  228 UN1  CGU A  46     -19.782   0.150  -3.877  1.00  0.00          Fe  
+HETATM  229 UC2  CGU A  46     -20.642  -0.452  -3.034  1.00  0.00          Fe  
+HETATM  230 UC4  CGU A  46     -22.357   0.939  -4.263  1.00  0.00          Fe  
+HETATM  231  BBP CGU A  47     -13.761  -0.406  -3.083  1.00  0.00           P  
+HETATM  232  BBC CGU A  47     -16.367   0.680  -0.549  1.00  0.00           C  
+HETATM  233 UN1  CGU A  47     -17.119  -2.525   0.262  1.00  0.00          Fe  
+HETATM  234 UC2  CGU A  47     -17.641  -3.496   1.131  1.00  0.00          Fe  
+HETATM  235 UC4  CGU A  47     -16.227  -5.117   0.039  1.00  0.00          Fe  
+HETATM  236  BBP CGG A  48     -13.621   1.008   2.071  1.00  0.00           P  
+HETATM  237  BBC CGG A  48     -15.569   0.251   5.259  1.00  0.00           C  
+HETATM  238 GN9  CGG A  48     -15.646  -3.098   4.664  1.00  0.00          Cu  
+HETATM  239 GC2  CGG A  48     -16.260  -6.258   6.038  1.00  0.00          Cu  
+HETATM  240 GC6  CGG A  48     -15.029  -6.482   3.980  1.00  0.00          Cu  
+HETATM  241  BBP CGG A  49     -12.270   0.125   7.186  1.00  0.00           P  
+HETATM  242  BBC CGG A  49     -13.199  -2.399   9.874  1.00  0.00           C  
+HETATM  243 GN9  CGG A  49     -12.910  -5.036   7.724  1.00  0.00          Cu  
+HETATM  244 GC2  CGG A  49     -12.641  -8.506   7.276  1.00  0.00          Cu  
+HETATM  245 GC6  CGG A  49     -11.959  -7.358   5.276  1.00  0.00          Cu  
+HETATM  246  BBP CGU A  50      -9.580  -2.593  11.063  1.00  0.00           P  
+HETATM  247  BBC CGU A  50      -9.571  -6.190  12.302  1.00  0.00           C  
+HETATM  248 UN1  CGU A  50      -9.351  -7.432   9.142  1.00  0.00          Fe  
+HETATM  249 UC2  CGU A  50      -9.081  -8.410   8.181  1.00  0.00          Fe  
+HETATM  250 UC4  CGU A  50      -8.898  -6.612   6.536  1.00  0.00          Fe  
+HETATM  251  BBP CGU A  51      -5.797  -6.163  12.843  1.00  0.00           P  
+HETATM  252  BBC CGU A  51      -5.066  -9.856  12.297  1.00  0.00           C  
+HETATM  253 UN1  CGU A  51      -5.338  -9.598   8.919  1.00  0.00          Fe  
+HETATM  254 UC2  CGU A  51      -5.118 -10.071   7.623  1.00  0.00          Fe  
+HETATM  255 UC4  CGU A  51      -5.490  -7.834   6.779  1.00  0.00          Fe  
+HETATM  256  BBP CGU A  52      -1.316  -9.194  12.344  1.00  0.00           P  
+HETATM  257  BBC CGU A  52      -0.130 -12.014  10.071  1.00  0.00           C  
+HETATM  258 UN1  CGU A  52      -1.129 -10.408   7.234  1.00  0.00          Fe  
+HETATM  259 UC2  CGU A  52      -1.120 -10.209   5.852  1.00  0.00          Fe  
+HETATM  260 UC4  CGU A  52      -1.972  -7.963   6.216  1.00  0.00          Fe  
+HETATM  261  BBP CGA A  53       3.353 -10.505  10.039  1.00  0.00           P  
+HETATM  262  BBC CGA A  53       4.647 -11.657   6.642  1.00  0.00           C  
+HETATM  263 AN9  CGA A  53       2.828  -9.337   4.932  1.00  0.00          Au  
+HETATM  264 AC2  CGA A  53       2.170  -7.538   1.981  1.00  0.00          Au  
+HETATM  265 AC6  CGA A  53       1.176  -6.439   3.854  1.00  0.00          Au  
+HETATM  266  BBP CGA A  54       7.612  -9.144   7.606  1.00  0.00           P  
+HETATM  267  BBC CGA A  54       8.566  -8.278   4.071  1.00  0.00           C  
+HETATM  268 AN9  CGA A  54       5.935  -6.147   3.659  1.00  0.00          Au  
+HETATM  269 AC2  CGA A  54       4.307  -3.700   1.746  1.00  0.00          Au  
+HETATM  270 AC6  CGA A  54       3.482  -3.733   3.975  1.00  0.00          Au  
+HETATM  271  BBP CGA A  55      11.111  -8.393   1.077  1.00  0.00           P  
+HETATM  272  BBC CGA A  55      12.815  -5.152   0.756  1.00  0.00           C  
+HETATM  273 AN9  CGA A  55      12.470  -2.010   1.912  1.00  0.00          Au  
+HETATM  274 AC2  CGA A  55      13.219  -0.298  -1.079  1.00  0.00          Au  
+HETATM  275 AC6  CGA A  55      11.323   0.667  -0.309  1.00  0.00          Au  
+HETATM  276  BBP CGU A  56      16.391  -6.251  -0.299  1.00  0.00           P  
+HETATM  277  BBC CGU A  56      18.319  -5.138   2.915  1.00  0.00           C  
+HETATM  278 UN1  CGU A  56      15.621  -5.517   4.630  1.00  0.00          Fe  
+HETATM  279 UC2  CGU A  56      15.610  -6.040   6.054  1.00  0.00          Fe  
+HETATM  280 UC4  CGU A  56      13.153  -6.526   5.479  1.00  0.00          Fe  
+HETATM  281  BBP CGC A  57      17.561  -1.675   0.887  1.00  0.00           P  
+HETATM  282  BBC CGC A  57      20.822  -0.741   2.920  1.00  0.00           C  
+HETATM  283 CN1  CGC A  57      24.085  -1.290   3.479  1.00  0.00          Ag  
+HETATM  284 CC2  CGC A  57      25.039  -2.268   4.071  1.00  0.00          Ag  
+HETATM  285 CC4  CGC A  57      26.629  -0.769   4.513  1.00  0.00          Ag  
+HETATM  286  BBP CGC A  58      20.604   2.640   4.632  1.00  0.00           P  
+HETATM  287  BBC CGC A  58      19.119   3.153   1.188  1.00  0.00           C  
+HETATM  288 CN1  CGC A  58      16.928   5.507   2.279  1.00  0.00          Ag  
+HETATM  289 CC2  CGC A  58      16.005   6.557   2.056  1.00  0.00          Ag  
+HETATM  290 CC4  CGC A  58      16.309   7.253   4.379  1.00  0.00          Ag  
+HETATM  291  BBP CGU A  59      21.791   5.550   0.272  1.00  0.00           P  
+HETATM  292  BBC CGU A  59      19.994   7.888  -2.127  1.00  0.00           C  
+HETATM  293 UN1  CGU A  59      18.268   9.449   0.254  1.00  0.00          Fe  
+HETATM  294 UC2  CGU A  59      17.522  10.497   0.820  1.00  0.00          Fe  
+HETATM  295 UC4  CGU A  59      18.217   9.926   3.047  1.00  0.00          Fe  
+HETATM  296  BBP CGU A  60      22.461  10.780  -2.086  1.00  0.00           P  
+HETATM  297  BBC CGU A  60      21.059  13.513  -4.103  1.00  0.00           C  
+HETATM  298 UN1  CGU A  60      19.435  14.763  -1.314  1.00  0.00          Fe  
+HETATM  299 UC2  CGU A  60      18.798  16.000  -0.630  1.00  0.00          Fe  
+HETATM  300 UC4  CGU A  60      19.071  14.678   1.300  1.00  0.00          Fe  
+HETATM  301  BBP CGC A  61      24.051  15.798  -3.467  1.00  0.00           P  
+HETATM  302  BBC CGC A  61      23.085  19.270  -2.964  1.00  0.00           C  
+HETATM  303 CN1  CGC A  61      24.054  21.522  -5.434  1.00  0.00          Ag  
+HETATM  304 CC2  CGC A  61      25.501  21.934  -5.498  1.00  0.00          Ag  
+HETATM  305 CC4  CGC A  61      25.081  21.190  -7.720  1.00  0.00          Ag  
+HETATM  306  BBP CGC A  62      26.537  19.980  -1.311  1.00  0.00           P  
+HETATM  307  BBC CGC A  62      25.792  21.834   1.897  1.00  0.00           C  
+HETATM  308 CN1  CGC A  62      25.020  18.978   3.582  1.00  0.00          Ag  
+HETATM  309 CC2  CGC A  62      24.779  18.243   4.767  1.00  0.00          Ag  
+HETATM  310 CC4  CGC A  62      25.067  16.236   3.463  1.00  0.00          Ag  
+HETATM  311  BBP CGC A  63      29.484  21.765   2.927  1.00  0.00           P  
+HETATM  312  BBC CGC A  63      29.085  21.822   6.724  1.00  0.00           C  
+HETATM  313 CN1  CGC A  63      28.168  18.554   6.856  1.00  0.00          Ag  
+HETATM  314 CC2  CGC A  63      28.008  17.280   7.496  1.00  0.00          Ag  
+HETATM  315 CC4  CGC A  63      28.148  16.200   5.323  1.00  0.00          Ag  
+HETATM  316  BBP CGG A  64      33.001  20.970   7.008  1.00  0.00           P  
+HETATM  317  BBC CGG A  64      33.168  19.082  10.126  1.00  0.00           C  
+HETATM  318 GN9  CGG A  64      31.885  16.592   9.071  1.00  0.00          Cu  
+HETATM  319 GC2  CGG A  64      31.503  13.503   9.199  1.00  0.00          Cu  
+HETATM  320 GC6  CGG A  64      31.051  14.341   6.695  1.00  0.00          Cu  
+HETATM  321  BBP CGU A  65      37.013  17.677  10.112  1.00  0.00           P  
+HETATM  322  BBC CGU A  65      36.771  14.322  11.787  1.00  0.00           C  
+HETATM  323 UN1  CGU A  65      35.257  12.868   9.067  1.00  0.00          Fe  
+HETATM  324 UC2  CGU A  65      34.932  11.744   8.303  1.00  0.00          Fe  
+HETATM  325 UC4  CGU A  65      34.700  13.222   6.397  1.00  0.00          Fe  
+HETATM  326  BBP CGA A  66      40.321  13.468  10.652  1.00  0.00           P  
+HETATM  327  BBC CGA A  66      40.077   9.670  10.332  1.00  0.00           C  
+HETATM  328 AN9  CGA A  66      38.397   9.854   7.403  1.00  0.00          Au  
+HETATM  329 AC2  CGA A  66      37.273   8.300   4.474  1.00  0.00          Au  
+HETATM  330 AC6  CGA A  66      37.198  10.674   4.221  1.00  0.00          Au  
+HETATM  331  BBP CGC A  67      43.513   9.591   8.680  1.00  0.00           P  
+HETATM  332  BBC CGC A  67      43.143   6.522   6.445  1.00  0.00           C  
+HETATM  333 CN1  CGC A  67      41.264   8.196   4.140  1.00  0.00          Ag  
+HETATM  334 CC2  CGC A  67      40.694   8.366   2.857  1.00  0.00          Ag  
+HETATM  335 CC4  CGC A  67      40.431  10.724   3.297  1.00  0.00          Ag  
+HETATM  336  BBP CGU A  68      46.445   7.333   4.813  1.00  0.00           P  
+HETATM  337  BBC CGU A  68      45.866   5.826   1.319  1.00  0.00           C  
+HETATM  338 UN1  CGU A  68      43.891   8.473   0.322  1.00  0.00          Fe  
+HETATM  339 UC2  CGU A  68      43.263   9.244  -0.614  1.00  0.00          Fe  
+HETATM  340 UC4  CGU A  68      43.051  11.015   0.986  1.00  0.00          Fe  
+HETATM  341  BBP CGA A  69      49.300   5.246  -0.519  1.00  0.00           P  
+HETATM  342  BBC CGA A  69      47.154   6.947  -3.173  1.00  0.00           C  
+HETATM  343 AN9  CGA A  69      48.212  10.094  -2.865  1.00  0.00          Au  
+HETATM  344 AC2  CGA A  69      48.557  12.544  -0.092  1.00  0.00          Au  
+HETATM  345 AC6  CGA A  69      49.864  13.153  -1.827  1.00  0.00          Au  
+TER     346      CGA A  69
+CONECT    1    2
+CONECT    2    1    3    6
+CONECT    3    2    4    5
+CONECT    4    3    5
+CONECT    5    3    4
+CONECT    6    2    7
+CONECT    7    6    8   11
+CONECT    8    7    9   10
+CONECT    9    8   10
+CONECT   10    8    9
+CONECT   11    7   12
+CONECT   12   11   13   16
+CONECT   13   12   14   15
+CONECT   14   13   15
+CONECT   15   13   14
+CONECT   16   12   17
+CONECT   17   16   18   21
+CONECT   18   17   19   20
+CONECT   19   18   20
+CONECT   20   18   19
+CONECT   21   17   22
+CONECT   22   21   23   26
+CONECT   23   22   24   25
+CONECT   24   23   25
+CONECT   25   23   24
+CONECT   26   22   27
+CONECT   27   26   28   31
+CONECT   28   27   29   30
+CONECT   29   28   30
+CONECT   30   28   29
+CONECT   31   27   32
+CONECT   32   31   33   36
+CONECT   33   32   34   35
+CONECT   34   33   35
+CONECT   35   33   34
+CONECT   36   32   37
+CONECT   37   36   38   41
+CONECT   38   37   39   40
+CONECT   39   38   40
+CONECT   40   38   39
+CONECT   41   37   42
+CONECT   42   41   43   46
+CONECT   43   42   44   45
+CONECT   44   43   45
+CONECT   45   43   44
+CONECT   46   42   47
+CONECT   47   46   48   51
+CONECT   48   47   49   50
+CONECT   49   48   50
+CONECT   50   48   49
+CONECT   51   47   52
+CONECT   52   51   53   56
+CONECT   53   52   54   55
+CONECT   54   53   55
+CONECT   55   53   54
+CONECT   56   52   57
+CONECT   57   56   58   61
+CONECT   58   57   59   60
+CONECT   59   58   60
+CONECT   60   58   59
+CONECT   61   57   62
+CONECT   62   61   63   66
+CONECT   63   62   64   65
+CONECT   64   63   65
+CONECT   65   63   64
+CONECT   66   62   67
+CONECT   67   66   68   71
+CONECT   68   67   69   70
+CONECT   69   68   70
+CONECT   70   68   69
+CONECT   71   67   72
+CONECT   72   71   73   76
+CONECT   73   72   74   75
+CONECT   74   73   75
+CONECT   75   73   74
+CONECT   76   72   77
+CONECT   77   76   78   81
+CONECT   78   77   79   80
+CONECT   79   78   80
+CONECT   80   78   79
+CONECT   81   77   82
+CONECT   82   81   83   86
+CONECT   83   82   84   85
+CONECT   84   83   85
+CONECT   85   83   84
+CONECT   86   82   87
+CONECT   87   86   88   91
+CONECT   88   87   89   90
+CONECT   89   88   90
+CONECT   90   88   89
+CONECT   91   87   92
+CONECT   92   91   93   96
+CONECT   93   92   94   95
+CONECT   94   93   95
+CONECT   95   93   94
+CONECT   96   92   97
+CONECT   97   96   98  101
+CONECT   98   97   99  100
+CONECT   99   98  100
+CONECT  100   98   99
+CONECT  101   97  102
+CONECT  102  101  103  106
+CONECT  103  102  104  105
+CONECT  104  103  105
+CONECT  105  103  104
+CONECT  106  102  107
+CONECT  107  106  108  111
+CONECT  108  107  109  110
+CONECT  109  108  110
+CONECT  110  108  109
+CONECT  111  107  112
+CONECT  112  111  113  116
+CONECT  113  112  114  115
+CONECT  114  113  115
+CONECT  115  113  114
+CONECT  116  112  117
+CONECT  117  116  118  121
+CONECT  118  117  119  120
+CONECT  119  118  120
+CONECT  120  118  119
+CONECT  121  117  122
+CONECT  122  121  123  126
+CONECT  123  122  124  125
+CONECT  124  123  125
+CONECT  125  123  124
+CONECT  126  122  127
+CONECT  127  126  128  131
+CONECT  128  127  129  130
+CONECT  129  128  130
+CONECT  130  128  129
+CONECT  131  127  132
+CONECT  132  131  133  136
+CONECT  133  132  134  135
+CONECT  134  133  135
+CONECT  135  133  134
+CONECT  136  132  137
+CONECT  137  136  138  141
+CONECT  138  137  139  140
+CONECT  139  138  140
+CONECT  140  138  139
+CONECT  141  137  142
+CONECT  142  141  143  146
+CONECT  143  142  144  145
+CONECT  144  143  145
+CONECT  145  143  144
+CONECT  146  142  147
+CONECT  147  146  148  151
+CONECT  148  147  149  150
+CONECT  149  148  150
+CONECT  150  148  149
+CONECT  151  147  152
+CONECT  152  151  153  156
+CONECT  153  152  154  155
+CONECT  154  153  155
+CONECT  155  153  154
+CONECT  156  152  157
+CONECT  157  156  158  161
+CONECT  158  157  159  160
+CONECT  159  158  160
+CONECT  160  158  159
+CONECT  161  157  162
+CONECT  162  161  163  166
+CONECT  163  162  164  165
+CONECT  164  163  165
+CONECT  165  163  164
+CONECT  166  162  167
+CONECT  167  166  168  171
+CONECT  168  167  169  170
+CONECT  169  168  170
+CONECT  170  168  169
+CONECT  171  167  172
+CONECT  172  171  173  176
+CONECT  173  172  174  175
+CONECT  174  173  175
+CONECT  175  173  174
+CONECT  176  172  177
+CONECT  177  176  178  181
+CONECT  178  177  179  180
+CONECT  179  178  180
+CONECT  180  178  179
+CONECT  181  177  182
+CONECT  182  181  183  186
+CONECT  183  182  184  185
+CONECT  184  183  185
+CONECT  185  183  184
+CONECT  186  182  187
+CONECT  187  186  188  191
+CONECT  188  187  189  190
+CONECT  189  188  190
+CONECT  190  188  189
+CONECT  191  187  192
+CONECT  192  191  193  196
+CONECT  193  192  194  195
+CONECT  194  193  195
+CONECT  195  193  194
+CONECT  196  192  197
+CONECT  197  196  198  201
+CONECT  198  197  199  200
+CONECT  199  198  200
+CONECT  200  198  199
+CONECT  201  197  202
+CONECT  202  201  203  206
+CONECT  203  202  204  205
+CONECT  204  203  205
+CONECT  205  203  204
+CONECT  206  202  207
+CONECT  207  206  208  211
+CONECT  208  207  209  210
+CONECT  209  208  210
+CONECT  210  208  209
+CONECT  211  207  212
+CONECT  212  211  213  216
+CONECT  213  212  214  215
+CONECT  214  213  215
+CONECT  215  213  214
+CONECT  216  212  217
+CONECT  217  216  218  221
+CONECT  218  217  219  220
+CONECT  219  218  220
+CONECT  220  218  219
+CONECT  221  217  222
+CONECT  222  221  223  226
+CONECT  223  222  224  225
+CONECT  224  223  225
+CONECT  225  223  224
+CONECT  226  222  227
+CONECT  227  226  228  231
+CONECT  228  227  229  230
+CONECT  229  228  230
+CONECT  230  228  229
+CONECT  231  227  232
+CONECT  232  231  233  236
+CONECT  233  232  234  235
+CONECT  234  233  235
+CONECT  235  233  234
+CONECT  236  232  237
+CONECT  237  236  238  241
+CONECT  238  237  239  240
+CONECT  239  238  240
+CONECT  240  238  239
+CONECT  241  237  242
+CONECT  242  241  243  246
+CONECT  243  242  244  245
+CONECT  244  243  245
+CONECT  245  243  244
+CONECT  246  242  247
+CONECT  247  246  248  251
+CONECT  248  247  249  250
+CONECT  249  248  250
+CONECT  250  248  249
+CONECT  251  247  252
+CONECT  252  251  253  256
+CONECT  253  252  254  255
+CONECT  254  253  255
+CONECT  255  253  254
+CONECT  256  252  257
+CONECT  257  256  258  261
+CONECT  258  257  259  260
+CONECT  259  258  260
+CONECT  260  258  259
+CONECT  261  257  262
+CONECT  262  261  263  266
+CONECT  263  262  264  265
+CONECT  264  263  265
+CONECT  265  263  264
+CONECT  266  262  267
+CONECT  267  266  268  271
+CONECT  268  267  269  270
+CONECT  269  268  270
+CONECT  270  268  269
+CONECT  271  267  272
+CONECT  272  271  273  276
+CONECT  273  272  274  275
+CONECT  274  273  275
+CONECT  275  273  274
+CONECT  276  272  277
+CONECT  277  276  278  281
+CONECT  278  277  279  280
+CONECT  279  278  280
+CONECT  280  278  279
+CONECT  281  277  282
+CONECT  282  281  283  286
+CONECT  283  282  284  285
+CONECT  284  283  285
+CONECT  285  283  284
+CONECT  286  282  287
+CONECT  287  286  288  291
+CONECT  288  287  289  290
+CONECT  289  288  290
+CONECT  290  288  289
+CONECT  291  287  292
+CONECT  292  291  293  296
+CONECT  293  292  294  295
+CONECT  294  293  295
+CONECT  295  293  294
+CONECT  296  292  297
+CONECT  297  296  298  301
+CONECT  298  297  299  300
+CONECT  299  298  300
+CONECT  300  298  299
+CONECT  301  297  302
+CONECT  302  301  303  306
+CONECT  303  302  304  305
+CONECT  304  303  305
+CONECT  305  303  304
+CONECT  306  302  307
+CONECT  307  306  308  311
+CONECT  308  307  309  310
+CONECT  309  308  310
+CONECT  310  308  309
+CONECT  311  307  312
+CONECT  312  311  313  316
+CONECT  313  312  314  315
+CONECT  314  313  315
+CONECT  315  313  314
+CONECT  316  312  317
+CONECT  317  316  318  321
+CONECT  318  317  319  320
+CONECT  319  318  320
+CONECT  320  318  319
+CONECT  321  317  322
+CONECT  322  321  323  326
+CONECT  323  322  324  325
+CONECT  324  323  325
+CONECT  325  323  324
+CONECT  326  322  327
+CONECT  327  326  328  331
+CONECT  328  327  329  330
+CONECT  329  328  330
+CONECT  330  328  329
+CONECT  331  327  332
+CONECT  332  331  333  336
+CONECT  333  332  334  335
+CONECT  334  333  335
+CONECT  335  333  334
+CONECT  336  332  337
+CONECT  337  336  338  341
+CONECT  338  337  339  340
+CONECT  339  338  340
+CONECT  340  338  339
+CONECT  341  337  342
+CONECT  342  341  343
+CONECT  343  342  344  345
+CONECT  344  343  345
+CONECT  345  343  344
+END
