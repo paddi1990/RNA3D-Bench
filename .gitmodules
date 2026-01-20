@@ -7,3 +7,6 @@
 [submodule "models/DRfold2"]
 	path = models/DRfold2
 	url = https://github.com/leeyang/DRfold2.git
+[submodule "models/RhoFold"]
+	path = models/RhoFold
+	url = https://github.com/ml4bio/RhoFold.git
