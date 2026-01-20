@@ -75,6 +75,16 @@ This optimization step enhances the accuracy and physical realism of the predict
 
 ## Reference
 
-If you use **3dRNA v2.0 (3dRNA_DNA)** in your research, please cite the original publication describing the method.
+If you use **3dRNA v2.0 (3dRNA_DNA)** in your research, please cite:
 
-(Reference information can be added here if required.)
+```bibtex
+@article{wang2019_3drna,
+  title={3dRNA v2.0: An Updated Web Server for RNA 3D Structure Prediction},
+  author={Wang, J. and Wang, J. and Huang, Y. and Xiao, Y.},
+  journal={International Journal of Molecular Sciences},
+  volume={20},
+  number={17},
+  pages={4116},
+  year={2019},
+  doi={10.3390/ijms20174116}
+}
