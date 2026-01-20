@@ -1,0 +1,3 @@
+[submodule "models/DeepoFoldRNA"]
+	path = models/DeepoFoldRNA
+	url = https://github.com/robpearc/DeepFoldRNA.git
