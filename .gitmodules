@@ -4,3 +4,6 @@
 [submodule "models/DRfold"]
 	path = models/DRfold
 	url = https://github.com/leeyang/DRfold.git
+[submodule "models/DRfold2"]
+	path = models/DRfold2
+	url = https://github.com/leeyang/DRfold2.git
