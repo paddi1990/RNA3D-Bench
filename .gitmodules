@@ -1,3 +1,6 @@
 [submodule "models/DeepoFoldRNA"]
 	path = models/DeepoFoldRNA
 	url = https://github.com/robpearc/DeepFoldRNA.git
+[submodule "models/DRfold"]
+	path = models/DRfold
+	url = https://github.com/leeyang/DRfold.git
