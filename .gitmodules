@@ -13,3 +13,6 @@
 [submodule "models/NuFold"]
 	path = models/NuFold
 	url = https://github.com/kiharalab/NuFold.git
+[submodule "models/FARFAR2"]
+	path = models/FARFAR2
+	url = https://github.com/RosettaCommons/rosetta.git
