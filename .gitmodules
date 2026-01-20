@@ -10,3 +10,6 @@
 [submodule "models/RhoFold"]
 	path = models/RhoFold
 	url = https://github.com/ml4bio/RhoFold.git
+[submodule "models/NuFold"]
+	path = models/NuFold
+	url = https://github.com/kiharalab/NuFold.git
