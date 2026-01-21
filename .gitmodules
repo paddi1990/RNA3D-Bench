@@ -31,3 +31,6 @@
 [submodule "metrics/RNArank"]
 	path = metrics/RNArank
 	url = https://github.com/YangLab-SDU/RNArank.git
+[submodule "metrics/RNA3DCNN"]
+	path = metrics/RNA3DCNN
+	url = https://github.com/lijunRNA/RNA3DCNN.git
