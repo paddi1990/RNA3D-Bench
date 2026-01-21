@@ -28,3 +28,6 @@
 [submodule "metrics/rnadvisor"]
 	path = metrics/rnadvisor
 	url = https://github.com/EvryRNA/rnadvisor.git
+[submodule "metrics/RNArank"]
+	path = metrics/RNArank
+	url = https://github.com/YangLab-SDU/RNArank.git
