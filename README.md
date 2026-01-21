@@ -130,22 +130,24 @@ We benchmarked **14 representative RNA tertiary structure prediction models** sp
 ### 4.2 Model Details
 
 #### **4.2.1 Statistical Potential & Ab Initio Methods**
-- **[SimRNA](https://github.com/simrna/simrna)** – Coarse-grained Monte Carlo sampling with statistical potential for template-free conformational exploration.
-- **[3dRNA v2.0](https://github.com/RNA-Puzzles/3dRNA)** – Fragment assembly approach with knowledge-based scoring function for RNA structure prediction.
-- **[FARFAR2](https://github.com/rosalindfranklininstitute/FARFAR2)** – Fragment assembly of RNA using the Rosetta energy function and conformational sampling.
-- **[VFold](https://github.com/tcgriffith/VFold)** – V-fold model combining statistical potentials and fragment libraries for 3D structure prediction.
+- **[SimRNA](https://genesilico.pl/SimRNAweb/)** – Coarse-grained Monte Carlo sampling with statistical potential for template-free conformational exploration.
+- **[RNAJP](http://rna.physics.missouri.edu/vfold_software_download/RNAJP_download.html)** – Junction-based modeling approach employing fragment libraries for RNA 3D structure prediction.
 
 #### **4.2.2 Template & Fragment-Driven Methods**
-- **[RNAComposer](http://rnacomposer.cs.put.poznan.pl/)** – Template-based modeling system utilizing the RNA FRABASE database for automated structure construction.
-- **[RNAJP](https://github.com/lyangmd/RNAJP)** – Junction-based modeling approach employing fragment libraries for RNA 3D structure prediction.
-- **[trRosettaRNA](https://github.com/gjoni/trRosettaRNA)** – Integrates deep learning-predicted distance/orientation restraints with fragment assembly for structure generation.
+- **[RNAComposer](https://rnacomposer.cs.put.poznan.pl)** – Template-based modeling system utilizing the RNA FRABASE database for automated structure construction.
+- **[3dRNA v2.0](http://biophy.hust.edu.cn/new/3dRNA)** – Fragment assembly approach with knowledge-based scoring function for RNA structure prediction.
+- **[FARFAR2](https://github.com/RosettaCommons/rosetta.git)** – Fragment assembly of RNA using the Rosetta energy function and conformational sampling.
+- **[VFold](https://rna.physics.missouri.edu/vfoldPipeline/)** – V-fold model combining statistical potentials and fragment libraries for 3D structure prediction.
 
 #### **4.2.3 Deep Learning-Based Methods**
-- **[DRfold](https://github.com/nanxstats/DRfold)** – End-to-end deep learning framework with hybrid energy network for direct RNA structure prediction.
-- **[RhoFold](https://github.com/ml4bio/RhoFold)** – RNA transformer architecture incorporating geometric constraints for accurate structure modeling.
-- **[RoseTTAFold2NA](https://github.com/uw-ipd/RoseTTAFold2NA)** – Three-track neural network architecture specifically designed for nucleic acid structure prediction.
-- **[DeepFoldRNA](https://github.com/DeepFold/DeepFoldRNA)** – Comprehensive deep learning framework for RNA tertiary structure prediction from sequence.
-- **[AlphaFold3](https://github.com/google-deepmind/alphafold3)** – Generalized architecture for biomolecular structure prediction, including RNA modeling capabilities.
+- **[trRosettaRNA](https://yanglab.qd.sdu.edu.cn/trRosettaRNA/)** – Integrates deep learning-predicted distance/orientation restraints with fragment assembly for structure generation.
+- **[DRfold](https://github.com/leeyang/DRfold.git)** – End-to-end deep learning framework with hybrid energy network for direct RNA structure prediction.
+- **[DRfold2](https://github.com/leeyang/DRfold2.git)** – DRfold2 is a deep learning method for RNA structure prediction. At its core, DRfold2 utilizes the RNA Composite Language Model (RCLM), which provides enhanced full likelihood approximation capabilities to effectively capture co-evolutionary signals from unsupervised sequence data.
+- **[RhoFold](https://github.com/ml4bio/RhoFold.git)** – RNA transformer architecture incorporating geometric constraints for accurate structure modeling.
+- **[RoseTTAFold2NA](https://github.com/uw-ipd/RoseTTAFold2NA.git)** – Three-track neural network architecture specifically designed for nucleic acid structure prediction.
+- **[DeepFoldRNA](https://github.com/robpearc/DeepFoldRNA.git)** – Comprehensive deep learning framework for RNA tertiary structure prediction from sequence.
+- **[AlphaFold3](https://alphafoldserver.com/)** – Generalized architecture for biomolecular structure prediction, including RNA modeling capabilities.
+- **[NuFold](https://github.com/kiharalab/NuFold.git)** – NuFold is a state-of-the-art method designed for predicting 3D RNA structures, leveraging deep learning for high accuracy and reliability. This tool is particularly useful for biologists and bioinformatics researchers focusing on RNA function and structure. 
 
 ---
 ## 5. Evaluation Metrics
