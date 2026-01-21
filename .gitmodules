@@ -19,3 +19,6 @@
 [submodule "models/RoseTTAFold2NA"]
 	path = models/RoseTTAFold2NA
 	url = https://github.com/uw-ipd/RoseTTAFold2NA.git
+[submodule "models/Alphafold3"]
+	path = models/Alphafold3
+	url = https://github.com/google-deepmind/alphafold3.git
