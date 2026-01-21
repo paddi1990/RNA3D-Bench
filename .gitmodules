@@ -34,3 +34,6 @@
 [submodule "metrics/RNA3DCNN"]
 	path = metrics/RNA3DCNN
 	url = https://github.com/lijunRNA/RNA3DCNN.git
+[submodule "metrics/PAMNet"]
+	path = metrics/PAMNet
+	url = https://github.com/XieResearchGroup/Physics-aware-Multiplex-GNN.git
