@@ -16,3 +16,6 @@
 [submodule "models/FARFAR2"]
 	path = models/FARFAR2
 	url = https://github.com/RosettaCommons/rosetta.git
+[submodule "models/RoseTTAFold2NA"]
+	path = models/RoseTTAFold2NA
+	url = https://github.com/uw-ipd/RoseTTAFold2NA.git
