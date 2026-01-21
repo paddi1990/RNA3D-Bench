@@ -22,3 +22,9 @@
 [submodule "models/Alphafold3"]
 	path = models/Alphafold3
 	url = https://github.com/google-deepmind/alphafold3.git
+[submodule "models/rnadvisor"]
+	path = models/rnadvisor
+	url = https://github.com/EvryRNA/rnadvisor.git
+[submodule "metrics/rnadvisor"]
+	path = metrics/rnadvisor
+	url = https://github.com/EvryRNA/rnadvisor.git
