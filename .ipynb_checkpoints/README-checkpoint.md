@@ -44,33 +44,69 @@ This repository hosts:
 
 ## 2. Repository structure
 
-A suggested structure (adjust to match your repo):
+A suggested structure:
 
 ```text
 .
-├── data/
-│   ├── dataset1/                  # Processed structures / metadata for Dataset1
-│   ├── dataset2/                  # Processed structures / metadata for Dataset2
-│   ├── dataset3/                  # Processed sequences & filters for Dataset3
-│   ├── metrics/                   # Precomputed metric tables (CSV/TSV)
-│   └── examples/                  # Small example subset for quick tests
-├── scripts/
-│   ├── 01_preprocess_structures.py
-│   ├── 02_run_predictors.sh       # Example wrapper to run external methods
-│   ├── 03_compute_metrics.py      # Calls RNAdvisor / RNA_assessment / etc.
-│   └── utils/                     # Helper functions (I/O, plotting helpers…)
-├── plot/
-│   ├── figure1_overview.R
-│   ├── figure2_model_performance.R
-│   ├── figure3_temporal_holdout.R
-│   ├── figure4_reference_free.R
-│   ├── figure5_sequence_factors.R
-│   ├── figure6_metric_PCA_clustering.R
-│   └── figure7_metric_comparison_ROC.R
-├── env/
-│   ├── environment.yml            # Conda env for Python tools (optional)
-│   └── renv/ or requirements_R.txt  # R package environment (optional)
-└── README.md
+├── datasets
+│   ├── dataset1
+│   ├── dataset2
+│   └── dataset3
+├── demo
+│   ├── fold_sars_model_0.cif
+│   ├── fold_sars_model_0.fixed.pdb
+│   └── fold_sars_model_0.pdb
+├── figures
+│   ├── dataset_resolution_distribution.pdf
+│   ├── dataset_sequence_length_distribution.pdf
+│   ├── dendrogram_plot_of_RNA_tertiary_structure_evaluation_metrics.pdf
+│   ├── dendrogram_plot_of_RNA_tertiary_structure_evaluation_metrics.png
+│   ├── metrics_correlation_GC.pdf
+│   ├── metrics_correlation_pair_ratio.pdf
+│   ├── metrics_correlation_with_sequence_length.pdf
+│   └── PCA_plot_of_RNA_tertiary_structure_evaluation_metrics.pdf
+├── metrics
+│   ├── ARES
+│   ├── Clash
+│   ├── PAMNet
+│   ├── Precision_Recall_F1
+│   ├── RNA3DCNN
+│   ├── rnadvisor
+│   └── RNArank
+├── models
+│   ├── 3dRNAv2.0
+│   ├── Alphafold3
+│   ├── DeepoFoldRNA
+│   ├── DRfold
+│   ├── DRfold2
+│   ├── FARFAR2
+│   ├── NuFold
+│   ├── RhoFold
+│   ├── RNAComposer
+│   ├── RNAJP
+│   ├── RoseTTAFold2NA
+│   ├── SimRNA
+│   ├── trRosettaRNA
+│   └── Vfold
+├── README.md
+├── results
+│   ├── dataset1
+│   ├── dataset2
+│   ├── dataset3
+│   ├── dataset_statistics
+│   └── metrics
+├── scripts
+│   ├── data_prepare.ipynb
+│   ├── dataset_statistics.ipynb
+│   ├── metrics_correlation_with_GC_content.ipynb
+│   ├── metrics_correlation_with_pairing_ratio.ipynb
+│   ├── metrics_correlation_with_sequence_length.ipynb
+│   ├── metrics_PCA_and_clustering_analysis.ipynb
+│   ├── __pycache__
+│   └── utils.py
+└── src
+    └── overview.jpg
+
 
 ```
 
