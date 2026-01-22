@@ -201,27 +201,27 @@ We employed **21 complementary metrics** spanning four major methodological cate
 ### 5.2 Metric Details
 
 #### **5.2.1 Geometry-Based Metrics**
-- **[RMSD/TM-score/lDDT/GDT-TS](https://zhanggroup.org/TM-score/)** – Standard structural similarity measures including Root Mean Square Deviation, Template Modeling score, local Distance Difference Test, and Global Distance Test.
-- **[Clash score](http://molprobity.biochem.duke.edu/)** – Evaluates structural plausibility by counting steric clashes in predicted models.
-- **[BARBABA-eSCORE](https://github.com/barbabamolnar/barbaba)** – Ensemble-based scoring method for assessing RNA structure quality and native-likeness.
+- **RMSD/[TM-score](https://aideepmed.com/TM-score/)/lDDT/GDT-TS** – Standard structural similarity measures including Root Mean Square Deviation, Template Modeling score, local Distance Difference Test, and Global Distance Test.
+- **Clash score** – Evaluates structural plausibility by counting steric clashes in predicted models.
+- **BARBABA-eSCORE** – Ensemble-based scoring method for assessing RNA structure quality and native-likeness.
 
 #### **5.2.2 Topology-Based Metrics**
-- **[INF](https://doi.org/10.1093/nar/gkab1145)** – Interaction Network Fidelity metric measuring correctness of predicted base-pair interactions and contact maps.
+- **INF** – Interaction Network Fidelity metric measuring correctness of predicted base-pair interactions and contact maps.
 - **Base-pair F1 score/Precision/Recall** – Standard classification metrics for evaluating base-pair prediction accuracy using tools like RNAView and MC-Annotate.
 
 #### **5.2.3 Energy-Based Metrics**
-- **[RASP](https://github.com/Tan-group/RASP)** – RNA Assessment of Structures Package providing knowledge-based potentials for RNA structure evaluation.
-- **[cgRNASP](https://doi.org/10.1093/nar/gkab1186)** – Coarse-grained statistical potential specifically designed for RNA structure assessment.
-- **[3dRNAscore](http://biophy.hust.edu.cn/3dRNA/score.html)** – Scoring function optimized for RNA tertiary structures incorporating multiple structural features.
-- **[RNA-BRIQ](https://github.com/RNA-FoldingLab/RNA-BRIQ)** – Bayesian model for RNA structure quality assessment using reference-free evaluation principles.
-- **[DFIRE](http://sparks-lab.org/yueyang/DFIRE/RNA-seq/)** – Distance-scaled Finite Ideal-gas Reference potential for statistical evaluation of RNA structures.
+- **RASP** – RNA Assessment of Structures Package providing knowledge-based potentials for RNA structure evaluation.
+- **cgRNASP** – Coarse-grained statistical potential specifically designed for RNA structure assessment.
+- **3dRNAscore** – Scoring function optimized for RNA tertiary structures incorporating multiple structural features.
+- **RNA-BRIQ** – Bayesian model for RNA structure quality assessment using reference-free evaluation principles.
+- **DFIRE** – Distance-scaled Finite Ideal-gas Reference potential for statistical evaluation of RNA structures.
 
 #### **5.2.4 Deep Learning-Based Metrics**
-- **[ARES](https://github.com/ahsenm/ARES)** – Atomic Rotationally Equivariant Scorer employing geometric deep learning for RNA structure assessment.
-- **[RNAalign](https://github.com/s2001/RNAalign)** – Deep learning model for RNA structure alignment and quality scoring using learned representations.
-- **[RNARank](https://doi.org/10.1093/bioinformatics/btab678)** – Neural network framework for ranking RNA structural models based on quality predictions.
-- **[RNA3DCNN](https://github.com/lyangmd/RNA3DCNN)** – 3D convolutional neural network architecture for comprehensive RNA structure assessment.
-- **[TB-MQC](https://doi.org/10.1093/nar/gkab493)** – Template-based Model Quality Assessment method leveraging structural similarities for scoring.
-- **[PAMNet](https://github.com/kad-ecoli/PAMNet)** – Point Attention Network for RNA structure evaluation using attention mechanisms on point cloud representations.
+- **[ARES](http://drorlab.stanford.edu/ares.html)** – Atomic Rotationally Equivariant Scorer employing geometric deep learning for RNA structure assessment.
+- **[RNArank](https://github.com/YangLab-SDU/RNArank.git)** – Neural network framework for ranking RNA structural models based on quality predictions.
+- **[RNA3DCNN](https://github.com/lijunRNA/RNA3DCNN.git)** – 3D convolutional neural network architecture for comprehensive RNA structure assessment.
+- **[TB-MCQ](https://github.com/EvryRNA/RNA-TorsionBERT)** – Template-based Model Quality Assessment method leveraging structural similarities for scoring.
+- **[PAMNet](https://github.com/XieResearchGroup/Physics-aware-Multiplex-GNN.git)** – Point Attention Network for RNA structure evaluation using attention mechanisms on point cloud representations.
+- **[LociPARSE](https://github.com/Bhattacharya-Lab/lociPARSE.git)** – lociPARSE is a locality-aware invariant point attention–based scoring function that predicts RNA 3D structure accuracy using superposition-free lDDT, enabling more reliable model evaluation and scoring-guided conformational sampling.
 
 
