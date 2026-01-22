@@ -3,7 +3,6 @@
 This repository contains code and example data accompanying:
 
 > **Benchmarking RNA tertiary structure prediction models and evaluation metrics**  
-> You Wu, Xiang Li, Dongke Zhou, Pengfei Xu, Xiang Yu  
 > (manuscript)
 
 We provide a **reproducible pipeline** for:
