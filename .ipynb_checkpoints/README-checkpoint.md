@@ -57,14 +57,65 @@ A suggested structure:
 │   ├── fold_sars_model_0.fixed.pdb
 │   └── fold_sars_model_0.pdb
 ├── figures
+│   ├── dataset3_radar_deep_learning.pdf
+│   ├── dataset3_radar_energy_metrics.pdf
+│   ├── dataset3_radar_plot_energy_metrics.pdf
 │   ├── dataset_resolution_distribution.pdf
 │   ├── dataset_sequence_length_distribution.pdf
 │   ├── dendrogram_plot_of_RNA_tertiary_structure_evaluation_metrics.pdf
 │   ├── dendrogram_plot_of_RNA_tertiary_structure_evaluation_metrics.png
+│   ├── method_legend.pdf
 │   ├── metrics_correlation_GC.pdf
 │   ├── metrics_correlation_pair_ratio.pdf
 │   ├── metrics_correlation_with_sequence_length.pdf
-│   └── PCA_plot_of_RNA_tertiary_structure_evaluation_metrics.pdf
+│   ├── PCA_plot_of_RNA_tertiary_structure_evaluation_metrics.pdf
+│   ├── performance_evaluation_on_dataset1_3drnascore.pdf
+│   ├── performance_evaluation_on_dataset1_ARES.pdf
+│   ├── performance_evaluation_on_dataset1_BARNABA-eSCORE.pdf
+│   ├── performance_evaluation_on_dataset1_cgRNASP.pdf
+│   ├── performance_evaluation_on_dataset1_clash.pdf
+│   ├── performance_evaluation_on_dataset1_DFIRE.pdf
+│   ├── performance_evaluation_on_dataset1_f1.pdf
+│   ├── performance_evaluation_on_dataset1_GDT-TS.pdf
+│   ├── performance_evaluation_on_dataset1_INF-ALL.pdf
+│   ├── performance_evaluation_on_dataset1_lddt.pdf
+│   ├── performance_evaluation_on_dataset1_LociPARSE.pdf
+│   ├── performance_evaluation_on_dataset1_PAMnet.pdf
+│   ├── performance_evaluation_on_dataset1_precision.pdf
+│   ├── performance_evaluation_on_dataset1_RASP-ENERGY.pdf
+│   ├── performance_evaluation_on_dataset1_recall.pdf
+│   ├── performance_evaluation_on_dataset1_RMSD.pdf
+│   ├── performance_evaluation_on_dataset1_RNA3DCNN.pdf
+│   ├── performance_evaluation_on_dataset1_RNA-BRiQ.pdf
+│   ├── performance_evaluation_on_dataset1_RNArank.pdf
+│   ├── performance_evaluation_on_dataset1_tb_mcq.pdf
+│   ├── performance_evaluation_on_dataset1_TM-score.pdf
+│   ├── performance_evaluation_on_dataset2_3drnascore.pdf
+│   ├── performance_evaluation_on_dataset2_ARES.pdf
+│   ├── performance_evaluation_on_dataset2_BARNABA-eSCORE.pdf
+│   ├── performance_evaluation_on_dataset2_cgRNASP.pdf
+│   ├── performance_evaluation_on_dataset2_clash.pdf
+│   ├── performance_evaluation_on_dataset2_DFIRE.pdf
+│   ├── performance_evaluation_on_dataset2_f1.pdf
+│   ├── performance_evaluation_on_dataset2_GDT-TS.pdf
+│   ├── performance_evaluation_on_dataset2_INF-ALL.pdf
+│   ├── performance_evaluation_on_dataset2_lddt.pdf
+│   ├── performance_evaluation_on_dataset2_LociPARSE.pdf
+│   ├── performance_evaluation_on_dataset2_PAMnet.pdf
+│   ├── performance_evaluation_on_dataset2_precision.pdf
+│   ├── performance_evaluation_on_dataset2_RASP-ENERGY.pdf
+│   ├── performance_evaluation_on_dataset2_recall.pdf
+│   ├── performance_evaluation_on_dataset2_RMSD.pdf
+│   ├── performance_evaluation_on_dataset2_RNA-BRiQ.pdf
+│   ├── performance_evaluation_on_dataset2_RNArank.pdf
+│   ├── performance_evaluation_on_dataset2_tb_mcq.pdf
+│   ├── performance_evaluation_on_dataset2_TM-score.pdf
+│   ├── ROC_deep_learning_metrics_LDDT_as_label.pdf
+│   ├── ROC_deep_learning_metrics_RMSD_as_label.pdf
+│   ├── ROC_deep_learning_metrics_TM_score_as_label.pdf
+│   ├── ROC_energy_metrics_LDDT_as_label.pdf
+│   ├── ROC_energy_metrics_RMSD_as_label.pdf
+│   └── ROC_energy_metrics_TM_score_as_label.pdf
 ├── metrics
 │   ├── ARES
 │   ├── Clash
@@ -102,10 +153,15 @@ A suggested structure:
 │   ├── metrics_correlation_with_pairing_ratio.ipynb
 │   ├── metrics_correlation_with_sequence_length.ipynb
 │   ├── metrics_PCA_and_clustering_analysis.ipynb
+│   ├── performance_evaluation_on_dataset1.ipynb
+│   ├── performance_evaluation_on_dataset2.ipynb
+│   ├── performance_evaluation_on_dataset3.ipynb
 │   ├── __pycache__
+│   ├── ROC_of_deep_learning_metrics.ipynb
+│   ├── ROC_of_energy_metrics.ipynb
 │   └── utils.py
 └── src
-    └── overview.jpg
+    └── Overview.jpg
 
 
 ```
