@@ -252,7 +252,7 @@ We employed **21 complementary metrics** spanning four major methodological cate
 | **Geometry-Based** | RMSD, TM-score, lDDT, GDT-TS, Clash score, BARBABA-eSCORE | Atomic coordinate similarity | Quantify global and local structural deviations |
 | **Topology-Based** | INF, Base-pair F1 score, Precision, Recall | Base-pairing pattern correctness | Assess secondary structure and contact map accuracy |
 | **Energy-Based** | RASP, cgRNASP, 3dRNAscore, RNA-BRIQ, DFIRE | Structural plausibility and stability | Statistical/knowledge-based potentials from experimental structures |
-| **Deep Learning-Based** | ARES, RNAalign, RNARank, RNA3DCNN, TB-MQC, PAMNet | Neural network discrimination | Learned representations for native vs. decoy classification |
+| **Deep Learning-Based** | ARES, LociPARSE, RNARank, RNA3DCNN, TB-MCQ, PAMNet | Neural network discrimination | Learned representations for native vs. decoy classification |
 
 ### 5.2 Metric Details
 
