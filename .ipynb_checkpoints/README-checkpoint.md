@@ -214,9 +214,9 @@ We benchmarked **14 representative RNA tertiary structure prediction models** sp
 
 | Category | Models Included | Core Methodology | Key Features |
 |----------|-----------------|------------------|--------------|
-| **Statistical Potential & Ab Initio** | SimRNA, 3dRNA v2.0, FARFAR2, VFold | Coarse-grained sampling, fragment assembly, statistical potentials | Physics-inspired, template-free conformational exploration |
-| **Template/Fragment-Driven** | RNAComposer, RNAJP, trRosettaRNA | Structural database integration, MSA coevolution, fragment libraries | Knowledge-guided construction using evolutionary signals |
-| **Deep Learning-Based** | DRfold, RhoFold, RoseTTAFold2NA, DeepFoldRNA, AlphaFold3 | RNA transformers, cross-modal architectures, EvoFormer modules | Neural network prediction of complex long-range interactions |
+| **Statistical Potential & Ab Initio** | SimRNA, RNAJP | Coarse-grained sampling, fragment assembly, statistical potentials | Physics-inspired, template-free conformational exploration |
+| **Template/Fragment-Driven** | RNAComposer, 3dRNA v2.0, FARFAR2, VFold | Structural database integration, MSA coevolution, fragment libraries | Knowledge-guided construction using evolutionary signals |
+| **Deep Learning-Based** | DRfold, DRfold2, RhoFold, RoseTTAFold2NA, trRosettaRNA, DeepFoldRNA, AlphaFold3, NuFold | RNA transformers, cross-modal architectures, EvoFormer modules | Neural network prediction of complex long-range interactions |
 
 ### 4.2 Model Details
 
